@@ -35,6 +35,13 @@ ASL-for-Nerds/
 ├── requirements.txt
 └── README.md
 ```
+##Installation
+
+Clone the repository:
+git clone https://github.com/coderida06/ASL-for-Nerds.git
+cd ASL-for-Nerds
+Install dependencies:
+pip install -r requirements.txt
 
 ## How It Works
 
