@@ -36,27 +36,6 @@ ASL-for-Nerds/
 └── README.md
 ```
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/ASL-for-Nerds.git
-cd ASL-for-Nerds
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-
-```bash
-python main.py
-```
-
 ## How It Works
 
 1. Select an ASL letter.
