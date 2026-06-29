@@ -2,26 +2,7 @@
 
 An interactive American Sign Language (ASL) learning application built with Python, OpenCV, MediaPipe, and CustomTkinter.
 
-## Features
-
-* Real-time hand tracking using MediaPipe
-* ASL alphabet recognition (A-Z)
-* Reference images for each sign
-* Instant feedback on detected signs
-* Modern dark-themed interface
-* Webcam-based learning experience
-* Special motion detection for the letter J
-
-## Technologies Used
-
-* Python
-* CustomTkinter
-* OpenCV
-* MediaPipe
-* NumPy
-* Pillow
-
-## Project Structure
+STRUCTURE
 
 ```text
 ASL-for-Nerds/
@@ -35,7 +16,7 @@ ASL-for-Nerds/
 ├── requirements.txt
 └── README.md
 ```
-##Installation
+INSTALLATIONS
 
 Clone the repository:
 git clone https://github.com/coderida06/ASL-for-Nerds.git
@@ -43,7 +24,7 @@ cd ASL-for-Nerds
 Install dependencies:
 pip install -r requirements.txt
 
-## How It Works
+HOW IT WORKS,
 
 1. Select an ASL letter.
 2. View the reference image.
@@ -51,13 +32,12 @@ pip install -r requirements.txt
 4. The application analyzes your hand landmarks.
 5. Receive instant feedback when the correct sign is detected.
 
-## Notes
+NOTES
 
 * Good lighting improves recognition accuracy.
 * Keep your hand clearly visible inside the camera frame.
 * Ensure your webcam is connected and accessible.
 
-## Author
 
 Built by Rida as a computer vision and accessibility learning project.
 
