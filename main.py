@@ -97,7 +97,7 @@ def classify_asl(lm):
     idx_down  = lm[8].y > lm[6].y + 0.03
     thm_horiz = abs(lm[4].x - lm[2].x) > abs(lm[4].y - lm[2].y) * 1.2
 
-    # ==================== C - Strongly Improved ====================
+   
     if thm_ext and not idx_ext and not mid_ext and not rng_ext and not pnk_ext:
         tips_y_spread = max(lm[8].y, lm[12].y, lm[16].y, lm[20].y) - min(lm[8].y, lm[12].y, lm[16].y, lm[20].y)
         idx_curved = dist2d(lm, 8, 7) / palm_size < 0.28
